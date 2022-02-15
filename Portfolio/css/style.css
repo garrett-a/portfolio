@@ -386,3 +386,9 @@
   justify-content: center;
   gap: 2.4rem;
 }
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
