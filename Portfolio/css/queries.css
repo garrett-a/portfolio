@@ -53,6 +53,10 @@
     font-size: 1.6rem;
   }
 
+  .header {
+    padding: 2.4rem;
+  }
+
   .sticky.header {
     height: 6rem;
   }
