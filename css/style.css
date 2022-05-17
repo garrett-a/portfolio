@@ -39,6 +39,7 @@
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
+  font-weight: 500;
   text-decoration: none;
   font-size: 2.4rem;
   color: #f3f0ff;
@@ -55,7 +56,7 @@
   background-color: #d6336c;
   color: #f3f0ff;
   padding: 1.2rem 2.4rem;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 .main-nav-link.cta:hover,
@@ -101,7 +102,7 @@
   background-color: #d6336c;
   color: #f3f0ff;
   padding: 1.2rem 2.4rem;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 .sticky .main-nav-link.cta:hover,
@@ -171,7 +172,7 @@
   background-color: #d6336c;
   color: #f3f0ff;
   padding: 1.2rem 2.4rem;
-  border-radius: 16px;
+  border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -209,14 +210,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  /* padding: 0 4.8rem; */
 }
 
 .about-text {
   font-size: 2rem;
   line-height: 1.5;
   font-weight: 400;
-  /* padding: 2.4rem; */
+  padding: 2rem;
 }
 
 .skills-grid {
@@ -225,7 +225,14 @@
   grid-auto-rows: minmax(min-content, max-content);
   justify-items: center;
   align-items: center;
-  gap: 2.4rem;
+  gap: 2.2rem;
+}
+
+.skills-grid .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
 }
 
 .skills-grid span {
@@ -233,6 +240,13 @@
   padding: 0 2.4rem 2.4rem;
   margin-bottom: 0;
   border-bottom: 2px solid #f3f0ff;
+}
+
+.skills-grid p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  text-align: center;
 }
 
 /* ///////////////////////////////////// */
@@ -294,7 +308,7 @@
 
 .project-img {
   width: 100%;
-  border-radius: 16px;
+  border-radius: 8px;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.301);
 }
 
@@ -335,7 +349,7 @@
   font-size: 1.6rem;
   width: 50%;
   padding: 2.4rem;
-  border-radius: 16px;
+  border-radius: 8px;
   border: none;
   resize: none;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.171);
@@ -349,7 +363,7 @@
   background-color: #d6336c;
   color: #f3f0ff;
   padding: 1.2rem 2.4rem;
-  border-radius: 16px;
+  border-radius: 8px;
   transition: all 0.3s;
   border: none;
   margin-bottom: 4.8rem;
